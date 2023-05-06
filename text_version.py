@@ -1,6 +1,6 @@
 from function import readfile, writefile
 import time
-print("today is",time.strftime("%d-%m-%y,%H-%M-%S"))
+print("today is", time.strftime("%d-%m-%y,%H-%M-%S"))
 while True:
     text = input('type add ,show,edit,completed or exit')
     text = text.strip()
