@@ -1,4 +1,4 @@
-from function import readfile,writefile
+from function import readfile, writefile
 import time
 print("today is",time.strftime("%d-%m-%y,%H-%M-%S"))
 while True:
