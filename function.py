@@ -2,7 +2,7 @@ FILEPATH = "mem.txt"
 
 
 def readfile(parameter=FILEPATH):
-    """ reads an already existing file and readlines command assigns a list to a variable list local"""
+    """ reads an already existing file and readline command assigns a list to a variable list local"""
     with open(parameter, 'r') as file_local:
         list_local = file_local.readlines()
         return list_local
